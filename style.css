@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(245 245 245);
+}
+
+i {
+  margin-right: 5px;
+  color: #6c6c6c;
+}
+
+p {
+  text-align: justify;
+}
+
+.back-arrow {
+  color: white !important;
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgb(183 183 183 / 59%) 11px 15px 17px -12px;
+  -webkit-box-shadow: rgb(183 183 183 / 59%) 11px 15px 17px -12px;
+  -moz-box-shadow: rgb(183 183 183 / 59%) 11px 15px 17px -12px;
+}
+
+.cocktail-name {
+  font-weight: 700;
+}
+
+.category {
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.alcoholic {
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.view-btn {
+  background-color: #0969da;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  width: fit-content;
+  padding: 5px 10px;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.main-heading {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.textField > label {
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.search-btn {
+  justify-content: center;
+}
+
+.search-btn > button {
+  background-color: #0969da;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  width: fit-content;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.search-btn > button > i {
+  color: white;
+}
+
+.form-div {
+  margin: 30px auto;
+  background: white;
+  padding: 25px 40px;
+  border-radius: 10px;
+  box-shadow: rgb(183 183 183 / 59%) 11px 15px 17px -12px;
+  -webkit-box-shadow: rgb(183 183 183 / 59%) 11px 15px 17px -12px;
+  -moz-box-shadow: rgb(183 183 183 / 59%) 11px 15px 17px -12px;
+}
+
+span {
+  background: #61953c;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 10px;
+  width: fit-content;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.err-msg {
+  font-size: 14px;
+  text-align: center;
+  flex: 1;
+}
+
+.form-control {
+  font-size: 0.8rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .card-cocktail {
+    width: 650px !important;
+  }
+
+  .image-card {
+    width: 40% !important;
+    object-fit: fill !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .view-btn {
+    font-size: 15px;
+  }
+
+  .main-heading {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 32px;
+  }
+
+  .textField > label {
+    text-align: right;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .card-cocktail {
+    width: 1020px;
+    margin: 0px auto;
+    flex-direction: row;
+  }
+
+  .image-card {
+    object-fit: cover;
+    width: 50%;
+  }
+
+  .cocktail-card-body {
+    padding: 35px;
+  }
+}
